@@ -1,0 +1,33 @@
+# Maven build output
+target/
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+credentials.*
+secrets/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
